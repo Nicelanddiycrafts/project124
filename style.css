@@ -1,0 +1,33 @@
+.jjj{
+    color: white;
+    }
+
+.Gelo{
+    width: 100%;
+}
+
+#re{
+    color: black;
+}
+
+.kkk{
+    bottom: 0;
+    position: fixed;
+    text-align: center;
+    background-color: grey;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+canvas{
+    animation-name: go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes go{
+from{box-shadow: 5px 5px 5px #88aeb3;}
+to{box-shadow: 5px 5px 5px #8fb388;}
+}
